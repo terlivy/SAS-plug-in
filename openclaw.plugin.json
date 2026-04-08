@@ -1,0 +1,22 @@
+{
+  "id": "sas-engine",
+  "name": "SAS Engine",
+  "description": "SAS v1.5 工作准则执行引擎：六阶段门控、自动审批、看门狗、状态机",
+  "version": "1.0.0",
+  "capabilities": [
+    "sas_check_gate",
+    "sas_log_transition",
+    "sas_watchdog_check",
+    "sas_get_task_state"
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true
+      }
+    }
+  }
+}
