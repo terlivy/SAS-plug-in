@@ -297,11 +297,11 @@ openclaw --agent main --local "你当前加载的 SAS Engine 版本是？"
 | 仓库 | 内容 |
 |------|------|
 | [SAS](https://github.com/terlivy/SAS) | SAS 工作准则文档体系（v1.5 CEO 模式） |
-| [SAS-script](https://github.com/terlivy/SAS-script) | 10 个自动化脚本 + crontab 配置 |
-| [snoopyclaw-skills](https://github.com/terlivy/snoopyclaw-skills) | Skills 资产（harness-leader / sas-default / sas-task-planner） |
+| [SAS-script](https://github.com/terlivy/SAS-script) | 自动化脚本 + crontab 配置 |
+| [snoopyclaw-skills](https://github.com/terlivy/snoopyclaw-skills) | Skills 资产（haseline / sas-default / sas-task-planner） |
 | [SAS-TradingGraph](https://github.com/terlivy/SAS-TradingGraph) | SAS v1.5 CEO 模式 × TradingAgents 融合 |
-| [memory-lancedb-pro](https://github.com/terlivy/memory-lancedb-pro) | 向量记忆插件 |
-| [lossless-claw-enhanced](https://github.com/terlivy/lossless-claw-enhanced) | 上下文压缩插件 |
+
+> **说明**：OpenClaw 生态中的 `memory-lancedb-pro`、`lossless-claw-enhanced`、`feishu_*` 等插件均为第三方或社区维护，不在本项目范围内。|
 
 ---
 
