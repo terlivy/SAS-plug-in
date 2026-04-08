@@ -1,7 +1,7 @@
 {
   "name": "@sas-engine/plugin",
-  "version": "1.0.0",
-  "description": "SAS v1.5 \u5de5\u4f5c\u51c6\u5219\u6267\u884c\u5f15\u64ce - \u516d\u9636\u6bb5\u95e8\u63a7\u3001\u81ea\u52a8\u5ba1\u6279\u3001\u770b\u95e8\u72d7\u3001\u72b6\u6001\u673a",
+  "version": "1.1.0",
+  "description": "SAS v1.5 工作准则执行引擎 - 六阶段门控、自动审批、看门狗、状态机",
   "main": "index.ts",
   "type": "commonjs",
   "scripts": {
