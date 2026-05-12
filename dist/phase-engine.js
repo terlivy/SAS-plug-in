@@ -184,10 +184,13 @@ export class PhaseEngine {
      */
     determineGateDecision(fromPhase, toPhase, context) {
         const complexity = context.complexity;
-        // L1任务：计划通过后自动通过所有后续门控（快速通道）
+        // L1任务：直接执行，快速通道
+        // receive→plan：L1跳过计划阶段，直接通过（因为没有plan，强制审批无意义）
+        // receive→execute：L1直接进入执行阶段
+        // 其他L1转换：全部自动通过
         if (complexity === 'L1') {
             if (fromPhase === 'receive' && toPhase === 'plan') {
-                return { auto: false, reason: 'L1任务计划阶段需要审批' };
+                return { auto: true, reason: 'L1任务跳过计划阶段，自动通过' };
             }
             return { auto: true, reason: 'L1任务快速通道自动通过' };
         }

@@ -120,7 +120,7 @@ const GET_TASK_STATE_PARAMS = {
 
 // ─── Plugin registration ────────────────────────────────────────────────
 
-export async function register(api: any) {
+export function register(api: any) {
   api.logger.info('[sas-engine] SAS Engine plugin v1.1.0 loading...');
 
   // Tool 1: Phase Gate Checker
